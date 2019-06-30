@@ -1,6 +1,7 @@
 from collections import defaultdict
 
 
+# Both used for decoration and regular object instantiation
 class _Ensemble(object):
 	model_functions = {}
 	ensemble_groups = defaultdict(set)

@@ -15,6 +15,7 @@ if __name__ == '__main__':
 	print(e1(model='f',x=2))
 	print(e1(model='g',y=3))
 	print(e2(model='f',x=2))
+	# catch invalid calls
 	try:
 		print(e2(model='g',y=3))
 	except ValueError:
